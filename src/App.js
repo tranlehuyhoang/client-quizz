@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+// import { Question } from './components/Question';
+// import { Quiz } from './components/Quiz';
+// import { Main } from './components/Main';
+import { Ketqua } from './components/Ketqua';
+import { Main } from './components/Main';
+import { Quiz } from './components/Quiz';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+  },
+  {
+    path: "/quiz",
+    element: <Quiz />,
+  },
+  {
+    path: "/result",
+    element: <Ketqua />,
+  },
+]);
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RouterProvider router={router} />
   );
 }
 

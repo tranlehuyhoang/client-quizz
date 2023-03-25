@@ -22,7 +22,7 @@ export const Main = () => {
         <div className='main'>
             <div>nhập tên</div>
             <input type="text" ref={ten} /> <br />
-            <Link to={'/quiz'} onClick={nhapten} >Bắt đầu</Link>
+            <Link to={'/client-quizz/quiz'} onClick={nhapten} >Bắt đầu</Link>
         </div>
     )
 }

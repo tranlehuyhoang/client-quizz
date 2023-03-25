@@ -53,7 +53,7 @@ export const Quiz = () => {
                 {trace < queue.length ? <button onClick={next}>tiếp tục</button> : <div></div>}
                 <button onClick={
                     hehe
-                } > <Link to={'/result'}>Xem kết quả </Link></button>
+                } > <Link to={'/client-quizz/result'}>Xem kết quả </Link></button>
             </div>
         </div>
     )

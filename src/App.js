@@ -13,15 +13,15 @@ import {
 } from "react-router-dom";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/client-quizz//",
     element: <Main />,
   },
   {
-    path: "/quiz",
+    path: "/client-quizz//quiz",
     element: <Quiz />,
   },
   {
-    path: "/result",
+    path: "/client-quizz/result",
     element: <Ketqua />,
   },
 ]);

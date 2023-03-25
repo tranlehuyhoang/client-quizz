@@ -13,11 +13,11 @@ import {
 } from "react-router-dom";
 const router = createBrowserRouter([
   {
-    path: "/client-quizz//",
+    path: "/client-quizz/",
     element: <Main />,
   },
   {
-    path: "/client-quizz//quiz",
+    path: "/client-quizz/quiz",
     element: <Quiz />,
   },
   {

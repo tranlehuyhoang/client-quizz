@@ -17,11 +17,11 @@ const router = createBrowserRouter([
     element: <Main />,
   },
   {
-    path: "/client-quizz/quiz",
+    path: "/quiz",
     element: <Quiz />,
   },
   {
-    path: "/client-quizz/result",
+    path: "/result",
     element: <Ketqua />,
   },
 ]);

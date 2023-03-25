@@ -29,7 +29,8 @@ export const ussPublishResult = (resultData) => {
     (async () => {
         try {
             if (result !== [] && !username) throw new Error("Couldn't get Result");
-            await postServerData("http://localhost:5000/api/result", resultData, data => data)
+            await postServerData("https://databasess.onrender.com/api/result", resultData, data => data)
+            
         } catch (error) {
             console.log(error)
         }

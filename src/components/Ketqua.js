@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 export const Ketqua = () => {
   const [hehehehe, setstate] = useState('');
 
-  getServerData('http://localhost:5000/api/result', (data) => {
+  getServerData('https://databasess.onrender.com/api/result', (data) => {
     setstate(data)
   })
   const kho = useSelector(state => state.result.userId)

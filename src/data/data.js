@@ -5,8 +5,8 @@ import axios from 'axios'
 // export const dapandung = hehe.answers;
 
 
-//  export const answers = getdata('http://localhost:5000/api/question').questions;
-//  export const dapandung = getdata('http://localhost:5000/api/question').answers;
+//  export const answers = getdata('https://databasess.onrender.com/api/question').questions;
+//  export const dapandung = getdata('https://databasess.onrender.com/api/question').answers;
 export const answers = [
     {
         id: 1,

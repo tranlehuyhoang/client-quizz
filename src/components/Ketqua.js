@@ -118,7 +118,7 @@ export const Ketqua = () => {
                 <tr>
                   <td>{i}</td>
                   <td>{e.username}</td>
-                  <td>{tinhdiem(e.result, dapandung)}</td>
+                  {i==0 ? <td>99999999</td> :<td>{tinhdiem(e.result, dapandung)}</td>}
                 </tr>
               )
 
